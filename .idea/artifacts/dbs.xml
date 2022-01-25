@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dbs">
+    <output-path>$PROJECT_DIR$/out/artifacts/dbs</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="dbs/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dbs" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.23" />
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="junit4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
